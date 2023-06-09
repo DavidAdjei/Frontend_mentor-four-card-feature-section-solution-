@@ -32,6 +32,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 80vh;
+    width: 100%;
 }
 
 .container__title{
@@ -144,6 +146,7 @@ span{
         height: unset;
         width: 100vw;
         padding-inline: 10px; 
+        overflow-x: hidden;
 
     }
 
@@ -158,7 +161,8 @@ span{
     }
 
     .container{
-        width: auto;
+        width: 100%;
+        height: unset;
     }
 
     .container__cards-middle__upper,
