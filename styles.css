@@ -24,7 +24,7 @@ body{
     padding: 10px;
     padding-inline: 70px;
     background-color: var(--VeryLightGray);
-
+    display: flex;
 }
 
 .container{
@@ -142,12 +142,14 @@ span{
 
 @media screen and (max-width: 50rem){
 
+    *{
+        overflow-x: hidden;
+    }
+
     body{
         height: unset;
         width: 100%;
         padding-inline: 10px; 
-        overflow-x: hidden;
-
     }
 
     .container__cards{
