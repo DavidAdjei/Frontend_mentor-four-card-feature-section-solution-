@@ -48,10 +48,13 @@ body{
 #container__title-heading{
     font-family: var(--fontfamily);
     font-weight: 200;
-    font-size: 2em;
+    font-size: 2rem;
     padding-bottom: 10px;
 }
 
+.container__title-paragraph{
+    font-size: 1rem;
+}
 #span{
     display: block;
     font-weight: 600;
